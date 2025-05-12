@@ -1,0 +1,61 @@
+
+/*
+Селектор тегу
+Селектор класу  
+Селектор ідентифікатора
+Селектор нащадка
+Селектор дитини
+селектор атрибута
+*/
+/* коди для всього сайту */
+/*
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    */
+
+    /*
+    // <weight>: Use a value from 100 to 900
+    // <uniquifier>: Use a unique and descriptive class name
+    
+    .raleway-<uniquifier> {
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }*/
+
+:root {
+  --main-color: #1b2d2d;
+}
+
+/* селектор тегу*/
+
+body{
+  background-color: aqua;
+  color: var(--main-color);
+  font-family: "Roboto", sans-serif;
+}
+/* селектор класу */
+
+.advantages{
+  background-color: aquamarine;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.footer {
+  font-family: "Raleway", sans-serif;
+}
+/*псевдоклас стану*/
+a:hover {color: azure;}
+a:focus{color: azure;}
+a:visited {color: black;}
