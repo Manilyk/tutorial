@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Анімація логотипа</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #175740; /* рубіновий фон */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    svg path {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: draw 4s ease forwards;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Встав SVG прямо сюди або підключи як <img src="logo_converted.svg"> -->
+  <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+    <rect width="300" height="300" fill="#9B111E"/>
+    <path d="M50 150 Q150 50 250 150 T450 150" fill="none" stroke="white" stroke-width="4"/>
+  </svg>
+</body>
+</html>
