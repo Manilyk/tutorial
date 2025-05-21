@@ -11,9 +11,12 @@
 ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;
 1,100..900&display=swap" rel="stylesheet">
 <!--тіблиця стилів-->
+<link rel="stylesheet" href="./css/style.css" />
+<!--cвайпер-->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>  
 
-  <link rel="stylesheet" href="./css/style.css" />
-  
 </head>
 <body>
 <!--шапка-->
@@ -38,13 +41,37 @@ ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;
   </header>
 
 <main>
+
 <!--Головний слайдер-->
   <Section class="hero">
+    <!--cвайпер таблиця-->
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/box1.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/box2.jpg" alt=""></div>
+    <div class="swiper-slide"><button class="main-button"></button></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <!--<div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>-->
+
+  <!-- If we need scrollbar -->
+  <!--<div class="swiper-scrollbar"></div>
+</div>-->
+
     <img src="/images/fonovefoto.jpg" alt="фонове фото" width="700">
     <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
     <a href="https://example.com">
     <button class="main-button" type="button">Замовити послугу</button>
   </a>
+  
   </Section>
 <!--Особливості та переваги-->
   <section class="advantages">
@@ -92,7 +119,9 @@ ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;
   </Section>
 
 </main>
-
+<!--Свайпер скрипт-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/index.js"></script>
   <footer>
     <address> <a href="./index.html" class="logo">
       <span style="color:skyblue;">Web</span><span style="color:black;">Studio</span>
