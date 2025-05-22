@@ -89,7 +89,83 @@ box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
 border: none;
 font-family: Roboto;
 }
+/* блок адвантеджес */
 
+.advantages-titel {
+color: var(--primary-color);
+font-weight: 700;
+font-size: 14px;
+line-height: calc(20/14);
+text-align: center;
+text-decoration: none;
+}
+.advantages-item {
+  list-style: none;
+}
+.advantages-descript {
+color: var(--secondary-color);
+font-weight: 400;
+font-size: 14px;
+line-height: calc(20/14);
+}
+/* блок ліст ворк */
+.list-works-title {
+list-style: none;
+color: var(--secondary-color);
+font-weight: 700;
+font-size: 36px;
+line-height: calc(36/42);
+text-align: center;
+}
+
+/* наша команда блок */
+.our-team-title {
+list-style: none;
+color: var(--secondary-color);
+font-weight: 700;
+font-size: 36px;
+line-height: calc(36/42);
+text-align: center;
+}
+.our-team-people {
+list-style: none;
+color: var(--secondary-color);
+font-weight: 500;
+font-size: 16px;
+line-height: calc(16/19);
+text-align: center;
+}
+.our-team-description{
+list-style: none;
+color: var(--secondary-color);
+font-weight: 400;
+font-size: 16px;
+line-height: calc(16/19);
+text-align: center; 
+}
+.regular-client-title {
+list-style: none;
+color: var(--secondary-color);
+font-weight: 700;
+font-size: 36px;
+line-height: calc(36/42);
+text-align: center; 
+}
+/* footer section*/ 
+.footer-adres {
+list-style: none;
+text-decoration: none;
+color: var(--secondary-color);
+font-weight: 400;
+font-size: 14px;
+line-height: calc(14/8); 
+}
+.footer-title{
+color: var(--primary-color);
+font-weight: 700;
+font-size: 14px;
+line-height: calc(14/8); 
+}
 /* селектор класу */
 .advantages{
   background-color: aquamarine;
